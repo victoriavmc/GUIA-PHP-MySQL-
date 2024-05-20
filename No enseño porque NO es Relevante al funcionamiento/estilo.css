@@ -1,0 +1,105 @@
+html,
+body {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 30px;
+}
+
+li {
+    margin: 40px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.perriPepsiMenu {
+    width: 100%;
+    background-color: #061BB0;
+    text-align: center;
+    padding: 0px 0;
+}
+
+.perriPepsiMenu img {
+    display: inline-block;
+}
+
+footer {
+    width: 100%;
+    background-color: #061BB0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.piePag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ladoIzq {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ladoDere {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form label,
+input {
+    display: flex;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+table {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #061BB0;
+}
+
+.perriPepsi {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #061BB0;
+}
+
+.perriPepsi header img {
+    display: inline-block;
+}
+
+.volver {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
